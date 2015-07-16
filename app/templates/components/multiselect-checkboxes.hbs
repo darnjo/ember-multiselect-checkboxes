@@ -2,11 +2,11 @@
   {{#if hasBlock}}
     {{yield checkbox.label checkbox.isSelected}}
   {{else}}
-    <li>
+    <section>
       <label>
         {{input type="checkbox" checked=checkbox.isSelected disabled=disabled}}
         {{checkbox.label}}
       </label>
-    </li>
+    </section>
   {{/if}}
 {{/each}}
