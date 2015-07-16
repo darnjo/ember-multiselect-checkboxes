@@ -19,7 +19,7 @@ var Checkbox = Ember.Object.extend({
 export default Ember.Component.extend({
   classNames: ['multiselect-checkboxes'],
 
-  tagName: 'section',
+  tagName: '',
 
   options: Ember.A(),
 
